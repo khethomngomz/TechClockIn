@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "technicianclockinapp",
+    "tech-app": "technicianclockinapp"
+  },
+  "targets": {},
+  "etags": {}
+}

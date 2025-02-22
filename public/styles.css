@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #4e342e, #ffcdd2);
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn {
+  margin: 5px;
+}
