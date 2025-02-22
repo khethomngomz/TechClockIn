@@ -1,11 +1,22 @@
 body {
   font-family: Arial, sans-serif;
-  background: linear-gradient(to right, #4e342e, #ffcdd2);
+  background: linear-gradient(to right, #e0c3fc, #8ec5fc);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
 }
 
 .container {
   max-width: 600px;
+  width: 100%;
   margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(#ffffff, rgb(119, 120, 120));
 }
 
 .text-center {
@@ -14,4 +25,16 @@ body {
 
 .btn {
   margin: 5px;
+}
+
+.btn-success {
+  background: linear-gradient(#74b755, #5ce855);
+  border: none;
+  color: white;
+}
+
+.btn-danger {
+  background: linear-gradient(#dcb8c0, #e33314);
+  border: none;
+  color: white;
 }
